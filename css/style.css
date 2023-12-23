@@ -170,6 +170,7 @@ ul {
     display: block;
     margin-top: 4rem;
     margin-bottom: 2rem;
+    height: auto;
   }
   .feature {
     flex-direction: column-reverse;
