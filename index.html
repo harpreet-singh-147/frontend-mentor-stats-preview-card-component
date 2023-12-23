@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  Get insights that help your business grow.
+  <main class="main">
+    <section class="feature">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <article class="feature__content">
+        <header class="feature__heading">
+          <h1 class="feature__heading-h1">Get <span>insights</span> that help your business grow.</h1>
+        </header>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+        <p class="feature__text">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <ul class="feature__stats">
+          <li class="feature__stat">
+            <span class="feature__stat-number">10k+</span>
+            <span class="feature__stat-text">companies</span>
+          </li>
+          <li class="feature__stat">
+            <span class="feature__stat-number">314</span>
+            <span class="feature__stat-text">templates</span>
+          </li>
+          <li class="feature__stat">
+            <span class="feature__stat-number">12m+</span>
+            <span class="feature__stat-text">queries</span>
+          </li>
+        </ul>
+      </article>
+
+      <figure class="feature__img-container">
+        <img src="images/image-header-desktop.jpg" alt="Happy looking business women working in an office environment"
+          class="feature__img">
+      </figure>
+
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      aria-label="Visit Frontend Mentor Website" rel="noopener noreferrer" referrerpolicy="no-referrer">Frontend
+      Mentor</a>. <br>
+    Coded by <a href="https://github.com/harpreet-singh-147" aria-label="More about Harpreet Singh" target="_blank"
+      rel="noopener noreferrer" referrerpolicy="no-referrer">Harpreet Singh</a>
+  </footer>
 </body>
+
 </html>
